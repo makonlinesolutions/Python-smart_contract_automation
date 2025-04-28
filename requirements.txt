@@ -1,0 +1,23 @@
+# Web framework and server
+Flask==3.1.0
+flask-cors==5.0.1
+
+# Web3 & Ethereum
+web3==7.10.0
+eth-account==0.13.7
+eth-abi==5.2.0
+hexbytes==1.3.0
+
+# Dotenv and env loading
+python-dotenv==1.1.0
+
+# Automation/browser simulation
+playwright==1.51.0
+
+# Useful tools
+requests==2.32.3
+loguru==0.7.3
+
+# Optional: if you use proxies, screenshots, notifications
+PySocks==1.7.1
+websocket-client==1.8.0

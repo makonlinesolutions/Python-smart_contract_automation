@@ -1,0 +1,7 @@
+Payload loaded: {'walletCount': 1, 'wallets': [{'address': '0x05c1Fe796A2B6f3c6a4BD7426B79C1dd165c43De', 'privateKey': '5351bc41fbac3a8841d86eda4b170b21e8420b9815afdc7d91f37ee63e29b7c8'}]}
+Executing 1 wallet(s)
+
+Wallet 1: 0x05c1Fe796A2B6f3c6a4BD7426B79C1dd165c43De
+❌ Error for 0x05c1Fe796A2B6f3c6a4BD7426B79C1dd165c43De: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Script finished.

@@ -1,0 +1,19 @@
+Payload loaded: {'amount': '10', 'walletCount': '5', 'telegram': 'sdf', 'twitter': 'asdf', 'discord': 'as', 'proxy': 'asdf', 'logPath': 'sdf', 'wallets': [{'address': '0x2222222222222222222222222222222222222222', 'privateKey': '0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'}, {'address': '0x3333333333333333333333333333333333333333', 'privateKey': '0xbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'}, {'address': '0x4444444444444444444444444444444444444444', 'privateKey': '0xcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc'}, {'address': '0x5555555555555555555555555555555555555555', 'privateKey': '0xdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd'}, {'address': '0x6666666666666666666666666666666666666666', 'privateKey': '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'}]}
+Executing 5 wallet(s)
+
+Wallet 1: 0x2222222222222222222222222222222222222222
+❌ Error for 0x2222222222222222222222222222222222222222: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Wallet 2: 0x3333333333333333333333333333333333333333
+❌ Error for 0x3333333333333333333333333333333333333333: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Wallet 3: 0x4444444444444444444444444444444444444444
+❌ Error for 0x4444444444444444444444444444444444444444: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Wallet 4: 0x5555555555555555555555555555555555555555
+❌ Error for 0x5555555555555555555555555555555555555555: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Wallet 5: 0x6666666666666666666666666666666666666666
+❌ Error for 0x6666666666666666666666666666666666666666: {'code': -32603, 'message': 'Signer had insufficient balance'}
+
+Script finished.
