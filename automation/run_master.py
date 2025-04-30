@@ -1,8 +1,8 @@
 from automation.approve import run_approve
 from automation.swap import run_swap
-from utils.telegram import simulate_telegram
-from utils.twitter import simulate_twitter
-from utils.discord import simulate_discord
+from social.telegram import simulate_telegram
+from social.twitter import simulate_twitter
+from social.discord import simulate_discord
 from utils.notifications import send_telegram, send_discord
 import json
 import os
