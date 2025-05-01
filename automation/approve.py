@@ -14,7 +14,7 @@ def run_approve(wallet):
 
     txn = contract.functions.approve(
         Web3.to_checksum_address(SPENDER_ADDRESS),
-        int(APPROVE_AMOUNT)
+        w3.to_wei((APPROVE_AMOUNT), 'gwei')
     ).build_transaction({
         'from': acct.address,
         'nonce': w3.eth.get_transaction_count(acct.address),
