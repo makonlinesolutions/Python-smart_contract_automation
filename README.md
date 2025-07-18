@@ -45,7 +45,7 @@ python -m playwright install
 # Start Flask server
 python app.py
 
-
+---
 **## Usage**
 Configure .env file with your blockchain settings.
 
