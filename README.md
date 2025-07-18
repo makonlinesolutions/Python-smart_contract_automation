@@ -75,6 +75,6 @@ TELEGRAM_GROUP_LINK=https://t.me/yourgroup
 ```
 
 ## Support
-For questions, contact:
-MAK Online Solutions Pvt Ltd
+For questions, contact: <br>
+<strong> MAK Online Solutions Pvt Ltd </strong>
 📧 onkar@makonlinesolutions.com
