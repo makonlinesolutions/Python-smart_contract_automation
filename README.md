@@ -73,6 +73,8 @@ TELEGRAM_GROUP_LINK=https://t.me/yourgroup
   { "address": "0x456...", "privateKey": "0xdef..." }
 ]
 ```
+## Frontend Code in ReactJS with Tailwind
+This code uses [Frontend](https://github.com/makonlinesolutions/ReactJS_Smart-Contract-Automation) built in ReactJS 
 
 ## Support
 For questions, contact: <br>
