@@ -44,41 +44,38 @@ python -m playwright install
 
 # Start Flask server
 python app.py
+```
 
----
-**## Usage**
-Configure .env file with your blockchain settings.
+## Usage
 
-Prepare a wallets.json file (sample format below).
+- Configure .env file with your blockchain settings.
+- Prepare a wallets.json file (sample format below).
+- Send a POST request to /api/start from your frontend or Postman.
+- Check logs and outputs in /logs folder.
 
-Send a POST request to /api/start from your frontend or Postman.
+## API
+- POST /api/start
+    Starts the automation process with uploaded wallets and parameters.
 
-Check logs and outputs in /logs folder.
-
-API
-POST /api/start
-Starts the automation process with uploaded wallets and parameters.
-
-Sample .env
-env
-Copy
-Edit
+## Sample .env
+```bash
 RPC_URL=https://monad-testnet.rpc
 TOKEN_IN_ADDRESS=0x...
 TOKEN_OUT_ADDRESS=0x...
 SWAP_ROUTER_ADDRESS=0x...
 TELEGRAM_HANDLE=your_handle
 TELEGRAM_GROUP_LINK=https://t.me/yourgroup
+```
 ...
-Sample wallets.json
-json
-Copy
-Edit
+## Sample wallets.json
+```bash
 [
   { "address": "0x123...", "privateKey": "0xabc..." },
   { "address": "0x456...", "privateKey": "0xdef..." }
 ]
-Support
+```
+
+## Support
 For questions, contact:
 MAK Online Solutions Pvt Ltd
 📧 onkar@makonlinesolutions.com
