@@ -55,7 +55,7 @@ python app.py
 
 ## API
 - POST /api/start
-    Starts the automation process with uploaded wallets and parameters.
+Starts the automation process with uploaded wallets and parameters.
 
 ## Sample .env
 ```bash
@@ -66,7 +66,6 @@ SWAP_ROUTER_ADDRESS=0x...
 TELEGRAM_HANDLE=your_handle
 TELEGRAM_GROUP_LINK=https://t.me/yourgroup
 ```
-...
 ## Sample wallets.json
 ```bash
 [
