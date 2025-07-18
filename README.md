@@ -54,7 +54,7 @@ python app.py
 - Check logs and outputs in /logs folder.
 
 ## API
-- POST /api/start
+- POST /api/start : <br>
 Starts the automation process with uploaded wallets and parameters.
 
 ## Sample .env
